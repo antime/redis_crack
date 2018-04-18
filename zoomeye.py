@@ -16,8 +16,8 @@ class ZoomEye:
     def get_access_token(self):
         url = 'https://api.zoomeye.org/user/login'
         data = {
-            "username": "330420359@qq.com",
-            "password": "Chuweitao-1992130"
+            "username": "your username",
+            "password": "your password"
         }
         r = requests.post(url=url, data=json.dumps(data))
         access_token = (r.json()).get('access_token')

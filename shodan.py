@@ -11,7 +11,7 @@ import requests
 
 class ShodanAPI(object):
     def __init__(self):
-        self.api_key = 'LjVExkObHqi4bSeROUr4e5CXqqvBFj68'
+        self.api_key = 'your api_key'
         self.base_url = 'https://api.shodan.io'
 
     def search(self):
